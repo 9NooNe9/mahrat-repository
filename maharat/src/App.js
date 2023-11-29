@@ -1,6 +1,10 @@
+import Home from './components/home_page/Home_page.js'
+
 const App = () => {
   return (
-    <div>Hello world!</div>
+    <div>
+      <Home />
+    </div>
   )
 }
 
