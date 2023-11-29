@@ -1,12 +1,14 @@
-import Home from './components/home_page/Home_page.js'
-import Menu from './components/menu/Menu.js'
+import './App.scss'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
 
 const App = () => {
   return (
-    <div>
-      <Menu />
-      <Home />
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+    </Routes>
+    </>
   )
 }
 
