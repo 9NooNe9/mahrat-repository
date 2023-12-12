@@ -1,10 +1,33 @@
 import Loader from "react-loaders";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Conatct = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
+  const refForm = useRef();
+  const emailSend = (event) => {
+    event.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_og736dm",
+        "template_bptnx4d",
+        refForm.current,
+        "h4ssCrmHNb9D71abO"
+      )
+      .then(
+        () => {
+          alert("Message Successfully Sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Faild To Send The Message, Please Try Agian!");
+        }
+      );
+  };
+
   useEffect(() => {
     setTimeout(() => {
       setLetterClass("text-animate-hover");
@@ -29,7 +52,7 @@ const Conatct = () => {
             convallis posuere morbi leo urna.
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={refForm} onSubmit={emailSend}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
