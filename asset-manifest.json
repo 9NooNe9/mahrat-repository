@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/%7Bmahrat-repository%7D/static/css/main.9121236c.css",
-    "main.js": "/%7Bmahrat-repository%7D/static/js/main.c96522c0.js",
-    "static/media/helvetica-neu.ttf": "/%7Bmahrat-repository%7D/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/%7Bmahrat-repository%7D/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/logo_sub.png": "/%7Bmahrat-repository%7D/static/media/logo_sub.19f3ab25ab15fd848b30.png",
-    "static/media/logo-s.png": "/%7Bmahrat-repository%7D/static/media/logo-s.bfc9f81846bda5218dab.png",
-    "static/media/CoolveticaRg-Regular.woff": "/%7Bmahrat-repository%7D/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "index.html": "/%7Bmahrat-repository%7D/index.html",
-    "main.9121236c.css.map": "/%7Bmahrat-repository%7D/static/css/main.9121236c.css.map",
-    "main.c96522c0.js.map": "/%7Bmahrat-repository%7D/static/js/main.c96522c0.js.map"
+    "main.css": "/mahrat-repository/static/css/main.638ac940.css",
+    "main.js": "/mahrat-repository/static/js/main.a7839368.js",
+    "static/media/helvetica-neu.ttf": "/mahrat-repository/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/mahrat-repository/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/logo_sub.png": "/mahrat-repository/static/media/logo_sub.19f3ab25ab15fd848b30.png",
+    "static/media/logo-s.png": "/mahrat-repository/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff": "/mahrat-repository/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "index.html": "/mahrat-repository/index.html",
+    "main.638ac940.css.map": "/mahrat-repository/static/css/main.638ac940.css.map",
+    "main.a7839368.js.map": "/mahrat-repository/static/js/main.a7839368.js.map"
   },
   "entrypoints": [
-    "static/css/main.9121236c.css",
-    "static/js/main.c96522c0.js"
+    "static/css/main.638ac940.css",
+    "static/js/main.a7839368.js"
   ]
 }
